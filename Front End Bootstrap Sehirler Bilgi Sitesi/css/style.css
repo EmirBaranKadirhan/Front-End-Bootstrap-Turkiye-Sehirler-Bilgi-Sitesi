@@ -1,0 +1,128 @@
+.carousel-item img{
+    height: 600px   ;
+}
+
+
+.bolge-ozet-baslik { 
+        font-family: "Bungee Tint", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+    
+      
+  
+.card img{
+    height: 300px;
+}  
+
+
+.col-sm img{
+    height: 100px;
+}
+
+
+.navbar-brand-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+}
+
+.background-image {
+    background-image: url('../images/turkiyeResim.png');
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    position: relative;
+  }
+
+
+
+.content-overlay {
+    position: absolute;
+    top: 55%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+
+
+.content-overlay2 {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+
+
+.content-overlay3 {
+    position: absolute;
+    top: 60%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+
+.ege-bolgesi-bg-color{
+    background-color: yellow;               /* imlec uzerinde degilken */ 
+}  
+
+.ege-bolgesi-bg-color:hover{                    /* imlec uzerine geldiginde olacaklar */
+    background-color: yellow;
+    color: black;
+    border: none;
+}
+
+.content-overlay4 {
+    position: absolute;
+    top: 70%;
+    left: 36%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+
+.akdeniz-bolgesi-bg-color{                          /* imlec uzerinde degilken */ 
+    background-color: rgb(165, 67, 42);
+    color: white;
+}
+
+
+.akdeniz-bolgesi-bg-color:hover{                    /* imlec uzerine geldiginde olacaklar */
+    background-color: rgb(165, 67, 42);
+    color: white;
+    border: none;
+}
+
+.content-overlay5 {
+    position: absolute;
+    top: 70%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+
+
+.content-overlay6 {
+    position: absolute;
+    top: 53%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+
+.content-overlay7 {
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }

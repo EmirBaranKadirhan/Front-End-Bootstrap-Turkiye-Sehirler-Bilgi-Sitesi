@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sehirler Bilgi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&family=New+Amsterdam&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- nav start-->
+      <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+          <div class="navbar-brand-container">            <!-- Logoyu yukari sayfa adini da hemen altina aldik -->
+            <img src="images/sehirlerSiteLogo.PNG" alt="" style="height: 70px; width: 70px;">
+            <a style="margin-right: 0; margin-bottom: 0; padding-bottom: 0;" class="navbar-brand text-white text-center h1" href="index.html">Gezelim Görelim</a>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto ">                    <!-- ms-auto ile soldan otomatik genislik verildi -->
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="#">Anasayfa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="sehirler.html">Şehirler</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="iletisim.html">İletişim</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="hakkimizda.html">Hakkımızda</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- nav end -->
+    
+    <!-- section start -->
+    
+      <div id="carouselExampleIndicators" class="carousel slide"> 
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Historical_peninsula_and_modern_skyline_of_Istanbul.jpg/800px-Historical_peninsula_and_modern_skyline_of_Istanbul.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://cdnp.flypgs.com/files/Sehirler-long-tail/Ankara/Ankara_Sehir_Rehberi.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://api.dokay.com.tr/storage/1476/63280f8b1e3bc7.40466361.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://nereyegitsek.net/wp-content/uploads/2022/09/Adanada-Yapilacaklar.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="container-fluid mb-4">
+        <div class="row bg-success p-4 text-center border-bottom border-top border-3">   <!-- row'a renk verdik ve paddign atadik, row icindeki yazilari ortalamis olduk -->
+          <div class="col-sm-8 offset-2">                     <!-- sagdan ve soldan 3 birimlik yer birakmis olduk (mx-auto da kullanabilirdik)-->
+            <div class="h-100 p-5 bg-body-tertiary border rounded-3">
+              <h2 class="display-2">Türkiye'nin Güzellikleri</h2>  <!-- basligin boyutunu degistirmis olduk -->
+              <p class=>"Türkiye'nin eşsiz şehirlerini keşfedin. Tarihi dokusu, doğal güzellikleri ve zengin kültürüyle her bir şehrin kendine özgü hikayesi var. İstanbul'un kozmopolit yapısından, İzmir'in sıcak sahillerine; Ankara'nın tarihi mekânlarından, Bursa'nın yeşil tepelerine uzanan bir yolculuğa davetlisiniz."</p>
+              </div>
+          </div>
+        </div>
+        <div class="row bg-dark text-white">
+            <div class="col-sm-6 ps-0">   <!-- ps-0 ile sol tarafa sifirladik resimi -->
+              <img class="w-100" style="height: 400px;" src="https://www.shutterstock.com/shutterstock/photos/2101951975/display_1500/stock-vector-vector-map-of-turkey-sights-historical-places-tourism-cities-guide-ephesus-cappadocia-2101951975.jpg" alt="">
+            </div>
+            <div class="col-sm-6">    <!-- d-flex justify-content-center align-items-center ==> bu siniflarla div icerisindekileri ortalayabiliriz -->
+              <h5 class="text-center bolge-ozet-baslik pb-2 pt-5">Bölgelerin Önemli Şehirleri</h5>
+              <div class="row">
+                <div class="col-sm-4">
+                  <ol>
+                    <h6>Marmara Bölgesi</h6>
+                      <li>İstanbul</li>
+                      <li>Bursa</li>
+                    <h6 class="mt-3">Ege Bölgesi</h6>
+                      <li>İzmir</li>
+                      <li>Manisa</li>
+                    <h6 class="mt-3">Akdeniz Bölgesi</h6>
+                      <li>Adana</li>
+                      <li>Antalya</li>
+                  </ol>    
+                </div>
+                <div class="col-sm-4">
+                  <ol>
+                  <h6>İç Anadolu Bölgesi</h6>
+                    <li>Ankara</li>
+                    <li>Konya</li>
+                  <h6 class="mt-3">Karadeniz Bölgesi</h6>
+                    <li>Samsun</li>
+                    <li>Trabzon</li>
+                  
+                  </ol>  
+                </div>
+                <div class="col-sm-4">
+                  <ol>
+                  <h6>Güneydoğu Anadolu Bölgesi</h6>
+                    <li>Gaziantep</li>
+                    <li>Şanlıurfa</li>
+                  <h6 class="mt-3">Doğu Anadolu Bölgesi</h6>
+                    <li>Van</li>
+                    <li>Erzurum</li>
+                  </ol>  
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center">  <!-- text-center yaziyi ortaladik -->
+            <h1>Doğa Manzaralarımız</h1>
+            <hr>
+          </div>
+          <div class="col-sm-4 mb-2">
+            <div class="card">
+              <img src="https://media.istockphoto.com/id/535119181/tr/foto%C4%9Fraf/bodrum-turkey.jpg?s=612x612&w=0&k=20&c=Pf6YNFTACTXyHd15Wtg-_YQm70reJ04kIbSfizQUvrM=" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Denizler</h5>
+                <p class="card-text">Türkiye'nin deniz manzaraları, her bölgenin kendine özgü güzelliklerini gözler önüne serer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 mb-2">
+            <div class="card">
+              <img src="https://media.istockphoto.com/id/1166976621/tr/foto%C4%9Fraf/i%C4%9Fd%C4%B1r-t%C3%BCrkiye-orta-do%C4%9Fu-a%C4%9Fr%C4%B1-da%C4%9F%C4%B1n%C4%B1n-nefes-kesen-manzaras%C4%B1-t%C3%BCrkiyenin-en-u%C3%A7-do%C4%9Fusundaki-en.jpg?s=612x612&w=0&k=20&c=62MsaHs3PPeTmxdQ5uMkBOwBnuzkjes3GVqgvJt-Vxw=" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Dağlar</h5>
+                <p class="card-text">Türkiye’nin dağları, ülkenin doğal zenginliklerini ve eşsiz manzaralarını sergileyen etkileyici formasyonlardır.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 mb-2">
+            <div class="card">
+              <img src="https://res.cloudinary.com/turna/image/upload/v1660739205/sis_da%C4%9F%C4%B1_yaylas%C4%B1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Yaylalar</h5>
+                <p class="card-text">Yayla manzaraları, Türkiye'nin dağlık bölgelerinde serin ve geniş yeşil alanlar sunarak doğanın eşsiz ve huzur verici güzelliklerini yansıtır.</p>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+        <div class="row my-4">
+          <div class="col-sm-12 text-center">
+            <h2>Türkiye'nin İkonik Değerleri</h2>
+            <hr>
+          </div>        
+          <div class="col-sm col-6 mb-1">          <!-- col-sm*8>img.w-100[src="hedef gorsel adresi"]  asagidakileri bu sekilde olusturmus olduk-->
+            <img src="https://hthayat.haberturk.com/im/2015/09/09/1031369_de57deb4b894b0879842f800c0b067cc.jpg" alt="" class="w-100 img-thumbnail">
+          </div>
+          <div class="col-sm col-6 mb-1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQium8EKlyPlCF-_RuKgmfucdcKELWxHkHt3g&s" alt="" class="w-100 img-thumbnail">
+          </div>
+          <div class="col-sm col-6 mb-1">
+            <img src="https://turkkulturumuz.wordpress.com/wp-content/uploads/2017/04/tc3bcrk-mutfac49fi.jpg?w=1170" alt="" class="w-100 img-thumbnail">
+          </div>
+          <div class="col-sm col-6 mb-1">
+            <img src="https://i12.haber7.net//fotogaleri/haber7/album/2022/06/1cFQQ_1644494206_0077_w750_h500.jpg" alt="" class="w-100 img-thumbnail">
+          </div>
+          <div class="col-sm col-6 mb-1">
+            <img src="https://www.kulturportali.gov.tr/repoKulturPortali/large/SehirRehberi//NeAlinir/20180530121405199_hitithediye06.jpg?format=jpg&quality=50" alt="" class="w-100 img-thumbnail" alt="" class="w-100 img-thumbnail">
+          </div>
+          <div class="col-sm col-6 mb-1">
+            <img src="https://ce1999.a-cdn.akinoncloud.com/products/2023/11/07/360752/d545eae5-eb42-4ae6-83c3-d6bf630f24e6_size450x450_cropCenter.jpg" alt="" class="w-100 img-thumbnail">
+          </div>
+          <div class="col-sm col-6 mb-1">
+            <img src="https://i0.wp.com/istanbulvacationtips.com/wp-content/uploads/2019/10/what-to-expect-turkish-hamam-istanbul-vacation-tips.jpg" alt="" class="w-100 img-thumbnail">
+          </div>
+          <div class="col-sm col-6 mb-1">
+            <img src="https://kvmgm.ktb.gov.tr/Resim/343668,canakkale-troya06jpg.png?0" alt="" class="w-100 img-thumbnail">
+          </div>
+        </div>
+        
+      </div>
+    <!-- section end -->
+        
+    <!-- footer start -->
+     <div class="bg-dark text-light mt-5">     <!-- div kapsayici oldugu icin arka plan rengini buraya vermis olduk. -->
+      <div class="container">   <!-- footer yapisini bir container icerisine aldik-->
+        <footer class="pt-5">    <!-- py-5 yerine pt-5 yaptik -->
+          <div class="row">
+            <div class="col-6 col-md-2 mb-3">  <!-- col-md-2 oldugu icin bir row'da 6'tane sutun yan yana gelebilir !!!! -->
+              <h5>Section</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">About</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md-2 mb-3">    <!-- col-md-2 oldugu icin bir row'da 6'tane sutun yan yana gelebilir !!!! -->     
+              <h5>Section</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">About</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Section</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">About</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-md-5 offset-md-1 mb-3">
+              <form>
+                <h5>Subscribe to our newsletter</h5>
+                <p>Monthly digest of what's new and exciting from us.</p>
+                <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                  <label for="newsletter1" class="visually-hidden">Email address</label>
+                  <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                  <button class="btn btn-primary" type="button">Subscribe</button>
+                </div>
+              </form>
+            </div>
+          </div>
+      
+          <div class="d-flex flex-column flex-sm-row justify-content-between py-4 border-top">
+            <p>© 2024 Company, Inc. All rights reserved.</p>
+            <ul class="list-unstyled d-flex">
+              <li class="ms-3"><a class="link-light" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+              <li class="ms-3"><a class="link-light" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+              <li class="ms-3"><a class="link-light" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <!-- footer end -->
+  </body>
+</html>
